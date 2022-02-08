@@ -30,7 +30,7 @@ Flexbox and more impotantly placing of content with `flex-direction`, `align-ite
 <br>
 
 ## Site links
-Hosted [Live Site]()
+Hosted [Live Site](https://nickodxyz.github.io/FM-social-proof-section-master/)
 <br>
 Frontend Mentor [Solution Page]()
 
