@@ -2,7 +2,7 @@
 <br>
 <h1 align="center">UNFINISHED/h1>
 
-<img src="https://github.com/NickODxyz/FM-nft-preview-card-component-main/blob/main/Preview.JPG?raw=true" ></img>
+<img src="url-here?raw=true" ></img>
 
 <br>
 
