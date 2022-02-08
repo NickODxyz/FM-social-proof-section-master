@@ -1,6 +1,6 @@
-<h1 align="center">Frontend Mentor - Social Proof Section Solution/h1>
+<h1 align="center">Frontend Mentor - Social Proof Section Solution</h1>
 <br>
-<h1 align="center">UNFINISHED/h1>
+<h2 align="center">UNFINISHED</h2>
 
 <img src="url-here?raw=true" ></img>
 
