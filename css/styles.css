@@ -23,7 +23,6 @@ body {
         url("../images/bg-pattern-bottom-desktop.svg") no-repeat bottom right;
     width: 144rem;
     height: 80rem;
-    border: 2px solid red;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -66,15 +65,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
-    border: 2px solid red;
 }
 
 .review {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: left;
+    justify-content: space-between;
     min-width: 44.5rem;
     max-height: 5.6rem;
     flex-basis: 100%;
@@ -94,17 +91,19 @@ body {
     align-self: flex-start;
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
+    padding-right: 9rem;
 }
 .review-middle {
     align-self: center;
     display: flex;
     flex-direction: row;
+    padding-right: 6rem;
 }
 .review-bottom {
     align-self: flex-end;
     display: flex;
     flex-direction: row;
+    padding-right: 8.8rem;
 }
 
 .review .text {
