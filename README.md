@@ -35,7 +35,7 @@ Flexbox and more impotantly placing of content with `flex-direction`, `align-ite
 ## Site links
 Hosted [Live Site](https://nickodxyz.github.io/FM-social-proof-section-master/)
 <br>
-Frontend Mentor [Solution Page]()
+Frontend Mentor [Solution Page](https://www.frontendmentor.io/solutions/social-proof-section-mobile-first-responsive-3Met_Lt1z)
 
 <br>
 
