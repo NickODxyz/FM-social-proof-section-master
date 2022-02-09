@@ -47,7 +47,7 @@ Frontend Mentor [Solution Page]()
 <br>
 [w3school - CSS Backgrounds](https://www.w3schools.com/css/css_background.asp)
 <br>
-Kevin Powell - [Responsive Design Made Easy](https://www.youtube.com/watch?v=bn-DQCifeQQ)
+[Kevin Powell - Responsive Design Made Easy](https://www.youtube.com/watch?v=bn-DQCifeQQ)
 
 <br>
 
