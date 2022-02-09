@@ -25,15 +25,17 @@ body {
     height: 80rem;
     overflow: hidden;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-top {
     display: flex;
     justify-content: space-between;
-    min-width: 110rem;
-    max-height: 23.5rem;
+    min-width: 111rem;
+    min-height: 23.5rem;
     margin-top: 12.7rem;
+    margin-bottom: 7.2rem;
 }
 
 .left-side {
@@ -47,7 +49,7 @@ body {
     color: var(--very-dark-magenta);
     font-size: 4.8rem;
     font-weight: bold;
-    line-height: 4.8rem;
+    line-height: 1;
     letter-spacing: -1.71429px;
 }
 
@@ -55,7 +57,7 @@ body {
     color: var(--dark-grayish-magenta);
     font-size: 1.5rem;
     font-weight: 500;
-    line-height: 2.5rem;
+    line-height: 1.666;
     letter-spacing: -0.5px;
 }
 
@@ -112,5 +114,69 @@ body {
     color: var(--very-dark-magenta);
     font-size: 1.3rem;
     font-weight: bold;
-    line-height: 1.5rem;
+    line-height: 1.154;
+}
+
+.container-bottom {
+    max-width: 1110px;
+    min-height: 26.6rem;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.card {
+    background-color: var(--very-dark-magenta);
+    border-radius: 0.8rem;
+    min-width: 35rem;
+    min-height: 23.4rem;
+    padding: 4rem 3.2rem;
+}
+
+.card-top {
+    align-self: flex-start;
+}
+
+.card-middle {
+    align-self: center;
+}
+
+.card-bottom {
+    align-self: flex-end;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.6rem;
+}
+
+.header-container img {
+    width: 4rem;
+    border-radius: 50%;
+    margin-right: 2.3rem;
+}
+
+.card-title h2 {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.card-title span {
+    color: var(--soft-pink);
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.body {
+    color: var(--white);
+    font-size: 1.3rem;
+    line-height: 1.692;
+    letter-spacing: -0.23px;
+    max-width: 28.5rem;
 }
