@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+
+:root {
+    /* Primary */
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+
+    /* Neutral */
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: "spartan", Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.wrapper {
+    background: url("../images/bg-pattern-top-desktop.svg") no-repeat,
+        url("../images/bg-pattern-bottom-desktop.svg") no-repeat bottom right;
+    width: 144rem;
+    height: 80rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-top {
+    display: flex;
+    justify-content: space-between;
+    min-width: 111rem;
+    min-height: 23.5rem;
+    margin-top: 12.7rem;
+    margin-bottom: 7.2rem;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 44.5rem;
+}
+
+.left-side .heading {
+    color: var(--very-dark-magenta);
+    font-size: 4.8rem;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: -1.71429px;
+}
+
+.left-side .text {
+    color: var(--dark-grayish-magenta);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.666;
+    letter-spacing: -0.5px;
+}
+
+.right-side {
+    min-width: 54rem;
+    max-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.6rem;
+    margin-top: 1.75rem;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 44.5rem;
+    max-height: 5.6rem;
+    flex-basis: 100%;
+    border-radius: 0.8rem;
+    background-color: var(--light-grayish-magenta);
+}
+
+.star {
+    background: url("../images/icon-star.svg");
+    background-repeat: round;
+    min-width: 9rem;
+    height: 1.577rem;
+    margin: 0 3.2rem;
+}
+
+.review-top {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+    padding-right: 9rem;
+}
+.review-middle {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    padding-right: 6rem;
+}
+.review-bottom {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    padding-right: 8.8rem;
+}
+
+.review .text {
+    color: var(--very-dark-magenta);
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1.154;
+}
+
+.container-bottom {
+    max-width: 1110px;
+    min-height: 26.6rem;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.card {
+    background-color: var(--very-dark-magenta);
+    border-radius: 0.8rem;
+    min-width: 35rem;
+    min-height: 23.4rem;
+    padding: 4rem 3.2rem;
+}
+
+.card-top {
+    align-self: flex-start;
+}
+
+.card-middle {
+    align-self: center;
+}
+
+.card-bottom {
+    align-self: flex-end;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.6rem;
+}
+
+.header-container img {
+    width: 4rem;
+    border-radius: 50%;
+    margin-right: 2.3rem;
+}
+
+.card-title h2 {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.card-title span {
+    color: var(--soft-pink);
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.body {
+    color: var(--white);
+    font-size: 1.3rem;
+    line-height: 1.692;
+    letter-spacing: -0.23px;
+    max-width: 28.5rem;
+}
